@@ -1,0 +1,67 @@
+.areas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 200px;
+}
+.lista-areas{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.lista-areas li{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: left;
+    gap: 15px;
+    padding: 50px;
+}
+.lista-areas li:nth-child(even){
+    border-bottom: 4px solid #caf;
+}
+
+@media (max-width: 600px){
+    .areas{
+        padding-bottom: 100px;
+
+    }
+    .lista-areas li{
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icones img{
+    width: 40px;
+    height:40px;
+}

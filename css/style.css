@@ -1,0 +1,12 @@
+@import url(componentes/cores.css);
+@import url(global/global.css);
+@import url(global/header.css);
+@import url(global/footer.css);
+@import url(componentes/tipografia.css);
+@import url(componentes/utilidades.css);
+@import url(home/introducao.css);
+@import url(home/sobre.css);
+@import url(home/areas.css);
+@import url(home/habilidades.css);
+@import url(home/contato.css);
+

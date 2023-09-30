@@ -1,0 +1,33 @@
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+.lista-habilidades{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    text-align: center;
+}
+@media (max-width: 600px){
+    .habilidades{
+        text-align: center;
+    }
+    .lista-habilidades{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: inherit;
+        gap: 20px;
+        padding: 0;
+    }
+    .lista-habilidades li{
+        background-color: var(--cor-fundo2);
+        padding: 30px;
+        
+    }
+}

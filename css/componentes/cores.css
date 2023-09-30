@@ -1,0 +1,25 @@
+:root{
+    --cor-fundo: #171717;
+    --cor-fundo2: #212121;
+    --cor-texto2: #636363;
+    --cor-detalhe: rgb(162, 99, 255);
+}
+
+.cor-bg{
+    background-color: var(--cor-fundo);
+}
+.cor-bg2{
+    background-color: var(--cor-fundo2);
+}
+.cor-txt1{
+    color: white;
+}
+.cor-txt2{
+    color: var(--cor-texto2);
+}
+.cor-detalhe-bg{
+    background-color: var(--cor-detalhe);
+}
+.cor-detalhe{
+    color: var(--cor-detalhe);
+}
