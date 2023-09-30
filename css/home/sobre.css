@@ -55,12 +55,28 @@ nav{
     .sobre{
         padding-bottom: 100px;
     }
+    .sobre-texto h2{
+        font-size: 1.9rem;
+
+    }
     .sobre-texto p{
         max-width: 30ch;
+        font-size: 0.75rem;
     }
     .adicionais{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 80px;
+        padding: 0;
+    }
+    .adicionais p {
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+    .adicionais span{
+        font-size: 0.8rem;
+    }
+    .detalhe{
+        display: none;
     }
 }

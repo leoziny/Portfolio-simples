@@ -27,7 +27,7 @@
     }
     .lista-habilidades li{
         background-color: var(--cor-fundo2);
-        padding: 30px;
+        padding: 20px;
         
     }
 }

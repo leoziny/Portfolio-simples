@@ -42,6 +42,9 @@
     }
     .lista-primaria{
         gap: 20px;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
     }
     .lista-primaria a{
         background-color: #3f3f3f4d;
@@ -50,5 +53,8 @@
     .lista-primaria a:hover{
         background-color: #3f3f3fc4;
  
+    }
+    .lista-primaria a::after{
+        display: none;
     }
 }
